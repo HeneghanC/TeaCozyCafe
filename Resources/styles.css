@@ -130,7 +130,7 @@ header {
 .location_blocks {
     width: 1000px;
     margin: 95px 100px;
-    display: inline-block;
+    display: inline-flex;
     position: absolute;
     background-color: transparent;
     justify-content: center;
