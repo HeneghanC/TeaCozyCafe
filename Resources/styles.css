@@ -1,0 +1,154 @@
+* {
+    font-family: Helvetica, sans-serif;
+    background-color: black;
+    color: seashell;
+}
+
+h2 {
+    font-size: 35px;
+    top: 1%;
+    margin: 0;
+    padding: 5px;
+    height: 40px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 20px;
+}
+
+nav {
+    float: right;
+    padding-right: 10px;
+}
+
+nav a {
+    font-family: Helvetica, sans-serif;
+    text-decoration: underline;
+    font-size: 22px;
+    padding: 10px;
+}
+
+header {
+    position: fixed;
+    z-index: 2;
+    width: 1300px;
+    height: 69px;
+    top: 0;
+    padding-top: 5px;
+    border-bottom: 1px solid seashell;
+}
+
+#mission img {
+    height: 700px;
+    width: 1200px;
+    position: absolute;
+    display: inline;
+}
+
+#mission {
+    position: relative;
+    height: 700px;
+    width: 1200px;
+    margin: 70px 50px 50px;
+}
+
+.banner {
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    opacity: 0.9;
+}
+
+#featured {
+    width: 1000px;
+    text-align: center;
+    margin: 70px 150px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.options img {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.container h4 {
+    margin: 5px;
+}
+
+#locations img {
+    position: absolute;
+    display: inline;
+    height: 700px;
+    width: 1200px;   
+}
+
+#locations {
+    height: 500px;
+    width: 1200px;
+    margin: 50px 50px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+#locations h2 {
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: 60px;
+    width: 100%;
+    margin: 0;
+    background-color: transparent;
+    display: block;
+}
+
+.location_blocks {
+    width: 1000px;
+    margin: 95px 100px;
+    display: inline-block;
+    position: absolute;
+    background-color: transparent;
+    justify-content: center;
+}
+
+.box {
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+    position: relative;
+    line-height: 45px;
+}
+
+#contact {
+    text-align: center;
+    height: 200px;
+}
+
+.legal {
+    padding: 20px;
+}
